@@ -249,7 +249,22 @@ html {
   #services-faq {
     height: 600px;
   }
+
+  #about .inner-overlay,
+  #services .inner-overlay,
+  #blog .inner-overlay,
+  #contact .inner-overlay {
+    /* background: rgba(0, 0, 0, 0.7); */
+    background: url("../img/slider-img3.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+  }
 }
+
 @media (max-width: 420px) {
   .navbar .navbar-brand {
     width: 75%;
